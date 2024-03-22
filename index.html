@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+        <body>
+                <p>
+                Consumo API de perros
+                </p>
+
+                <div>
+                        <label>Id</label>
+                        <input type="text" id="id">
+                </div>
+                <div>
+                        <label>Nombre</label>
+                        <input type="text" id="nombre">
+                </div>
+                <div>
+                        <label>Raza</label>
+                        <input type="text" id="raza">
+                </div>
+                <div>
+                        <label>Edad</label>
+                        <input type="text" id="edad">
+                </div>
+
+                <div>
+                        <label>Foto</label>
+                        <input type="text" id="foto">
+                </div>
+
+		
+                <button onclick="postPerro()">POST perro </button>
+                <button onclick="getPerros()">GET perros </button>
+
+                <div id="resultado"></div>
+		<div id="imagen"></div>
+
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+                <script src="callrestapi.js"></script>
+
+                <p>by Roberto</p>
+        </body>
+</html>
+
